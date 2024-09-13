@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseURL = 'http://localhost:8080/api'
+const baseURL = 'https://email-backend-afbq.onrender.com/api'
 
 export const customAxios = axios.create({
     baseURL:baseURL
